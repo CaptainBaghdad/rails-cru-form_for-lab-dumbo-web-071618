@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   post '/artists', to: 'artists#create'
   patch '/artists/:id', to: 'artists#update'
   post '/genres', to: 'genres#create'
+  post '/songs', to: 'songs#create'
 
   # Example resource route with options:
   #   resources :products do
